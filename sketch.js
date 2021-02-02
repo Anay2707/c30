@@ -66,7 +66,8 @@ function draw(){
     slingshot.display();    
 }
 
-function keyPressesd(){
+function keyPressed(){
+    
     if(keyCode === 32){
         slingshot.attach(bird.body);
     }
